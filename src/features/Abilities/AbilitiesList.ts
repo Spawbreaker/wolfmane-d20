@@ -6,7 +6,7 @@ export interface Ability {
   charges: number | 'passive';
   pack: Pack;
   key: string;
-  isCore?: true;
+  isPackAbility?: true;
 }
 
 export const Abilities: Ability[] = [
@@ -51,7 +51,7 @@ export const Abilities: Ability[] = [
     charges: 3,
     pack: 'braves',
     key: 'b1',
-    isCore: true,
+    isPackAbility: true,
   },
   {
     name: 'Bulwark',
