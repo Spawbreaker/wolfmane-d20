@@ -9,6 +9,7 @@ import { colors } from './db/theme';
 import { StatPoints } from 'features/StatPoints';
 import { ArmorChoice } from 'features/ArmorChoice/ArmorChoice';
 import { Abilities } from 'features/Abilities';
+import { NewcommerAbilities } from 'features/Abilities/Options/Newcomer';
 
 
 export const App = () => {
@@ -26,6 +27,7 @@ export const App = () => {
           <StatPoints />
           <ArmorChoice />
           <Abilities />
+          <NewcommerAbilities />
         </Box>
       </ThemeProvider>
     </div>
